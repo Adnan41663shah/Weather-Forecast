@@ -28,7 +28,9 @@ It displays current weather conditions, today's highlights, and a 3-day forecast
 <img src="screenshots/output2.png" alt="Weather App Screenshot" width="100%">
 
 📄 License
+
 This project is open-source and free to use under the MIT License.
 
 👤 Author
+
 Made with ❤️ by Adnan Shah
