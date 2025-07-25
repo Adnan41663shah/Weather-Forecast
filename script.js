@@ -64,7 +64,7 @@ function findUserLocation() {
 
         });
 
-    const weatherApi = `http://api.weatherapi.com/v1/forecast.json?key=7c8cbb0f13cd4767a3b200332250306&q=${userLocation.value.trim()}&days=8&aqi=no&alerts=no`;
+    const weatherApi = `http://api.weatherapi.com/v1/forecast.json?key=7c8cbb0f13cd4767a3b200332250306&q=${userLocation.value.trim()}&days=3&aqi=no&alerts=no`;
     fetch(weatherApi)
         .then((response) => response.json())
         .then((data) => {
